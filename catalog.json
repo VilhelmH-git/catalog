@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-15T11:02:37+00:00",
+  "updated": "2026-10-15T11:32:52+00:00",
   "products": [
     {
       "id": "boomerhubb",
@@ -8,26 +8,26 @@
       "description": "Den här appen: installerar och uppdaterar teamets appar och tillägg. Uppdaterar sig själv härifrån.",
       "descriptionEn": "This app: installs and updates the team's apps and plugins. Updates itself from here.",
       "type": "app",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "app": {
         "packageName": "BoomerHubb",
         "publisher": "CN=BoomerHubb",
         "msix": {
           "pattern": "BoomerHubb_*_x64.msix",
-          "url": "https://github.com/VilhelmH-git/BoomerHubb-releases/releases/download/v1.0.4/BoomerHubb_1.0.4.0_x64.msix",
-          "sha256": "4aba780179abbbe9012a495be046cb6fada28f105d1e4f502d5f1ae63f5f0c07",
-          "size": 44861692
+          "url": "https://github.com/VilhelmH-git/BoomerHubb-releases/releases/download/v1.0.5/BoomerHubb_1.0.5.0_x64.msix",
+          "sha256": "62e93c4b9519fe033473d431b6b7123757df7481ae6ed7c83659ef448cc8bab7",
+          "size": 45295533
         },
         "zip": {
           "pattern": "BoomerHubb-*-sidladdning.zip",
-          "url": "https://github.com/VilhelmH-git/BoomerHubb-releases/releases/download/v1.0.4/BoomerHubb-1.0.4-sidladdning.zip",
-          "sha256": "68713519af376947333bc0e961ee0c1a1a0a602b00dd4ab56cf6e0b258b30f27",
-          "size": 87233518
+          "url": "https://github.com/VilhelmH-git/BoomerHubb-releases/releases/download/v1.0.5/BoomerHubb-1.0.5-sidladdning.zip",
+          "sha256": "1684ca98cd58dc4c998ff24c7bfc87ccfb9095afd3ad1803a5af08352547d543",
+          "size": 87576735
         },
         "certThumbprint": "E2811E045F69DEAF702738889A98592BA3D1D33F"
       },
       "icon": "images/boomerhubb.png",
-      "releaseNotes": "https://github.com/VilhelmH-git/BoomerHubb-releases/releases/tag/v1.0.4"
+      "releaseNotes": "https://github.com/VilhelmH-git/BoomerHubb-releases/releases/tag/v1.0.5"
     },
     {
       "id": "regelverket",
