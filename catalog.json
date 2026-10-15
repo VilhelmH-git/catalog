@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "updated": "2026-10-15T08:20:05+00:00",
+  "products": [
+    {
+      "id": "regelverket",
+      "name": "Regelverket",
+      "description": "Fyller väggarna i en IFC-modell med Gyproc- eller Knauf-väggsystem - reglar, skenor, skivor och isolering som egna IFC-objekt - och skriver resultatet som en ny IFC-fil. Helt offline.",
+      "descriptionEn": "Fills the walls of an IFC model with Gyproc or Knauf wall systems - studs, runners, boards and insulation as individual IFC objects - and writes a new IFC file. Works offline.",
+      "type": "app",
+      "version": "1.0.24",
+      "app": {
+        "packageName": "Regelverket",
+        "publisher": "CN=Regelverket",
+        "msix": {
+          "pattern": "Regelverket_*_x64.msix",
+          "url": "https://github.com/VilhelmH-git/Regelverket-releases/releases/download/v1.0.24/Regelverket_1.0.24.0_x64.msix",
+          "sha256": "794c33a7bc8fe7f70597c69b5e357f1e0e1b01d3241bc9b6e033281e905ff021",
+          "size": 47670204
+        },
+        "zip": {
+          "pattern": "Regelverket-*-sidladdning.zip",
+          "url": "https://github.com/VilhelmH-git/Regelverket-releases/releases/download/v1.0.24/Regelverket-1.0.24-sidladdning.zip",
+          "sha256": "212c2b0c21cf50bd8ccce51ce1bc42a82b154a6c119ad2b71d8a9ba79ee5ce4b",
+          "size": 89965086
+        },
+        "certThumbprint": "E113B3439594A260733B874C2B49AEDA2792CB13"
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/Regelverket-releases/releases/tag/v1.0.24"
+    },
+    {
+      "id": "koordinatverktyget",
+      "name": "Koordinatverktyget",
+      "description": "Flyttar IFC- och DWG-filer mellan koordinatsystem. Helt offline. DWG kräver att AutoCAD finns på datorn.",
+      "descriptionEn": "Moves IFC and DWG files between coordinate systems. Works offline. DWG needs AutoCAD on the PC.",
+      "type": "app",
+      "version": "1.0.25",
+      "app": {
+        "packageName": "Koordinatverktyget",
+        "publisher": "CN=Koordinatverktyget",
+        "msix": {
+          "pattern": "Koordinatverktyget_*_x64.msix",
+          "url": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/download/v1.0.25/Koordinatverktyget_1.0.25.0_x64.msix",
+          "sha256": "f0eaeff4c0588bff7e896a8fed0a9a568983b7c9687b218ba9a268cd5794c1c8",
+          "size": 110464585
+        },
+        "zip": {
+          "pattern": "Koordinatverktyget-*-sidladdning.zip",
+          "url": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/download/v1.0.25/Koordinatverktyget-1.0.25-sidladdning.zip",
+          "sha256": "403971df6b968dce6e374b14087d117853ba99c4527e4333e5726162f0efa0e7",
+          "size": 151224141
+        },
+        "certThumbprint": "BA2B6FBFDDA6829FCCB948E5A259282B8F1AE8D6"
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/tag/v1.0.25"
+    },
+    {
+      "id": "ifcheatmap",
+      "name": "IFC Heatmap",
+      "description": "Visar i 3D vilka element i de levererade IFC-modellerna som ändras natt efter natt, per typ av ändring och per egenskap.",
+      "descriptionEn": "Shows in 3D which elements of the delivered IFC models keep changing from night to night, by kind of change and by property.",
+      "type": "app",
+      "version": "1.1.9",
+      "app": {
+        "packageName": "IfcHeatmap",
+        "publisher": "CN=IfcHeatmap",
+        "msix": {
+          "pattern": "IfcHeatmap_*_x64.msix",
+          "url": "https://github.com/VilhelmH-git/IfcHeatmap-releases/releases/download/v1.1.9/IfcHeatmap_1.1.9.0_x64.msix",
+          "sha256": "53b93008c8a54a9e95ccd6a5237b18348feed2ad63ce0c97e2ed31573d4ffc68",
+          "size": 83201462
+        },
+        "zip": {
+          "pattern": "IfcHeatmap-*-sidladdning.zip",
+          "url": "https://github.com/VilhelmH-git/IfcHeatmap-releases/releases/download/v1.1.9/IfcHeatmap-1.1.9-sidladdning.zip",
+          "sha256": "cf743fbd079e017622b671a8368a2e1b97db0d25d978af772fb721da1a10de6d",
+          "size": 125266611
+        },
+        "certThumbprint": "5D60D686C3603D726047BE2AE61C9B4F29269D5C"
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/IfcHeatmap-releases/releases/tag/v1.1.9"
+    },
+    {
+      "id": "taggverktyget",
+      "name": "Taggverktyget",
+      "description": "Kopplar Bluebeam-markeringar på Revit-ritningar (PDF) till IFC-väggarna och dörrarna de pekar på, låter dig granska varje träff på ritningen och exporterar Excel och färgkontroll-PDF:er.",
+      "descriptionEn": "Maps Bluebeam markups on Revit sheet PDFs to the IFC walls and doors they point at, for review on the drawing, and exports Excel and colour-check PDFs.",
+      "type": "app",
+      "version": "1.0.18",
+      "app": {
+        "packageName": "Taggverktyget",
+        "publisher": "CN=Taggverktyget",
+        "msix": {
+          "pattern": "Taggverktyget_*_x64.msix",
+          "url": "https://github.com/VilhelmH-git/Taggverktyget-releases/releases/download/v1.0.18/Taggverktyget_1.0.18.0_x64.msix",
+          "sha256": "808f13cf7f5f3a5d915550f81a9fb5fd947048b4ed6a519a387302c1edfad941",
+          "size": 115525533
+        },
+        "zip": {
+          "pattern": "Taggverktyget-*-sidladdning.zip",
+          "url": "https://github.com/VilhelmH-git/Taggverktyget-releases/releases/download/v1.0.18/Taggverktyget-1.0.18-sidladdning.zip",
+          "sha256": "5120a93a689673c4b26907269b31344d8d376c225e20d141467fc899eb2b4553",
+          "size": 156349695
+        },
+        "certThumbprint": "790BBF690CDAB230CB396DECF032568CEEAC1BC5"
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/Taggverktyget-releases/releases/tag/v1.0.18"
+    },
+    {
+      "id": "modellvisaren",
+      "name": "Modellvisaren",
+      "description": "Öppnar IFC-modeller och visar egenskaperna för elementet du klickar på. Helt offline.",
+      "descriptionEn": "Opens IFC models and shows the properties of the element you click. Works offline.",
+      "type": "app",
+      "version": "1.0.10",
+      "app": {
+        "packageName": "Modellvisaren",
+        "publisher": "CN=Modellvisaren",
+        "msix": {
+          "pattern": "Modellvisaren_*_x64.msix",
+          "url": "https://github.com/VilhelmH-git/Modellvisaren-releases/releases/download/v1.0.10/Modellvisaren_1.0.10.0_x64.msix",
+          "sha256": "de2e2cdc6ceedb57fdb619028c74b8268125d83b0adac5e5206b7e47de2f1816",
+          "size": 47666394
+        },
+        "zip": {
+          "pattern": "Modellvisaren-*-sidladdning.zip",
+          "url": "https://github.com/VilhelmH-git/Modellvisaren-releases/releases/download/v1.0.10/Modellvisaren-1.0.10-sidladdning.zip",
+          "sha256": "af05a6e93c5d0362ad63e6739384d689ff7fcf7e3cda6405db993acac847335d",
+          "size": 89974464
+        },
+        "certThumbprint": "FC27BE3FDCC144500F116CBF4F869EAAAFA05F51"
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/Modellvisaren-releases/releases/tag/v1.0.10"
+    },
+    {
+      "id": "ritningsvisaren",
+      "name": "Ritningsvisaren",
+      "description": "Läser PDF-ritningar och dokument snabbt: flikar, sökning och bokmärken. Helt offline.",
+      "descriptionEn": "Reads PDF drawings and documents, fast: tabs, search, bookmarks. Works offline.",
+      "type": "app",
+      "version": "1.1.2",
+      "app": {
+        "packageName": "Ritningsvisaren",
+        "publisher": "CN=Ritningsvisaren",
+        "msix": {
+          "pattern": "Ritningsvisaren_*_x64.msix",
+          "url": "https://github.com/VilhelmH-git/Ritningsvisaren-releases/releases/download/v1.1.2/Ritningsvisaren_1.1.2.0_x64.msix",
+          "sha256": "b01948c151ae51785afef366cde03279a63090c8cb434f4cfccc8943e6a1675e",
+          "size": 49940120
+        },
+        "zip": {
+          "pattern": "Ritningsvisaren-*-sidladdning.zip",
+          "url": "https://github.com/VilhelmH-git/Ritningsvisaren-releases/releases/download/v1.1.2/Ritningsvisaren-1.1.2-sidladdning.zip",
+          "sha256": "5ce067576acc0f8d5ba09b59b763be177017f172bb5f61c643adffddc95fa0b1",
+          "size": 92239316
+        },
+        "certThumbprint": "188C80BB2E83996EB4FB343E242FB74729C38B6A"
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/Ritningsvisaren-releases/releases/tag/v1.1.2"
+    },
+    {
+      "id": "granskningexcel",
+      "name": "Granskning Excel",
+      "description": "Gör om Interaxo-granskningens PDF:er till en granskningsarbetsbok i Excel: varje anteckning en rad, statistiken som formler, eller din egen mall ifylld.",
+      "descriptionEn": "Turns Interaxo review PDFs into one granskning Excel workbook: every annotation a row, the statistics as formulas, or your own template filled.",
+      "type": "app",
+      "version": "1.0.3",
+      "app": {
+        "packageName": "GranskningExcel",
+        "publisher": "CN=GranskningExcel",
+        "msix": {
+          "pattern": "GranskningExcel_*_x64.msix",
+          "url": "https://github.com/VilhelmH-git/GranskningExcel-releases/releases/download/v1.0.3/GranskningExcel_1.0.3.0_x64.msix",
+          "sha256": "0f397f0007a344541bb25d42b17655f83081bd6ae831b1c428d89743b7b8abae",
+          "size": 73033260
+        },
+        "zip": {
+          "pattern": "GranskningExcel-*-sidladdning.zip",
+          "url": "https://github.com/VilhelmH-git/GranskningExcel-releases/releases/download/v1.0.3/GranskningExcel-1.0.3-sidladdning.zip",
+          "sha256": "3e7536bf07a41e0b00af104d9916498196a4f3223f6ec3c48c7958fecbeae60f",
+          "size": 114164724
+        },
+        "certThumbprint": "D4296E2DD831DDC784F5270705B0F20D09671682"
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/GranskningExcel-releases/releases/tag/v1.0.3"
+    },
+    {
+      "id": "viewpointbuilder",
+      "name": "ViewpointBuilder",
+      "description": "Bygger standardvyerna i en samordningsmodell med ett klick: Översikt, och per TO en vy utan markmodell och en med transparent markmodell. Vilken modell som hör till vilken TO styrs av filnamnsmönster.",
+      "descriptionEn": "Builds the standard viewpoints in a samordningsmodell with one click: an overview, and per TO one view without and one with a transparent terrain model, matched by file-name patterns.",
+      "type": "navisworks-plugin",
+      "version": "",
+      "plugin": {
+        "folder": "ViewpointBuilder",
+        "assembly": "ViewpointBuilder.dll",
+        "zipRoot": "plugin",
+        "targets": [
+          {
+            "product": "Navisworks Manage",
+            "year": "2025",
+            "asset": {
+              "pattern": "ViewpointBuilder-*.zip"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
