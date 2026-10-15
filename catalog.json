@@ -137,7 +137,8 @@
         "certThumbprint": "790BBF690CDAB230CB396DECF032568CEEAC1BC5"
       },
       "releaseNotes": "https://github.com/VilhelmH-git/Taggverktyget-releases/releases/tag/v1.0.18",
-      "icon": "images/taggverktyget.png"
+      "icon": "images/taggverktyget.png",
+      "screenshot": "images/taggverktyget-screenshot.jpg"
     },
     {
       "id": "modellvisaren",
