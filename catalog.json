@@ -222,7 +222,8 @@
         "certThumbprint": "D4296E2DD831DDC784F5270705B0F20D09671682"
       },
       "releaseNotes": "https://github.com/VilhelmH-git/GranskningExcel-releases/releases/tag/v1.0.3",
-      "icon": "images/granskningexcel.png"
+      "icon": "images/granskningexcel.png",
+      "screenshot": "images/granskningexcel-screenshot.jpg"
     },
     {
       "id": "viewpointbuilder",
