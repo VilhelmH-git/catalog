@@ -82,7 +82,8 @@
         "certThumbprint": "BA2B6FBFDDA6829FCCB948E5A259282B8F1AE8D6"
       },
       "releaseNotes": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/tag/v1.0.25",
-      "icon": "images/koordinatverktyget.png"
+      "icon": "images/koordinatverktyget.png",
+      "screenshot": "images/koordinatverktyget-screenshot.jpg"
     },
     {
       "id": "ifcheatmap",
