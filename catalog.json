@@ -190,7 +190,8 @@
         "certThumbprint": "188C80BB2E83996EB4FB343E242FB74729C38B6A"
       },
       "releaseNotes": "https://github.com/VilhelmH-git/Ritningsvisaren-releases/releases/tag/v1.1.2",
-      "icon": "images/ritningsvisaren.png"
+      "icon": "images/ritningsvisaren.png",
+      "screenshot": "images/ritningsvisaren-screenshot.jpg"
     },
     {
       "id": "granskningexcel",
