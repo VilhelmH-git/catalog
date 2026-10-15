@@ -3,31 +3,23 @@
   "updated": "2026-10-15T09:21:28+00:00",
   "products": [
     {
-      "id": "bygghubb",
-      "name": "ByggHubb",
+      "id": "boomerhubb",
+      "name": "BoomerHubb",
       "description": "Den här appen: installerar och uppdaterar teamets appar och tillägg. Uppdaterar sig själv härifrån.",
       "descriptionEn": "This app: installs and updates the team's apps and plugins. Updates itself from here.",
       "type": "app",
-      "version": "1.0.2",
+      "version": "",
       "app": {
-        "packageName": "ByggHubb",
-        "publisher": "CN=ByggHubb",
+        "packageName": "BoomerHubb",
+        "publisher": "CN=BoomerHubb",
         "msix": {
-          "pattern": "ByggHubb_*_x64.msix",
-          "url": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/download/v1.0.2/ByggHubb_1.0.2.0_x64.msix",
-          "sha256": "9458e81be9bedf58b9763a9c864de35a6f46ad4bf4920a75467195301eb70c3b",
-          "size": 44805707
+          "pattern": "BoomerHubb_*_x64.msix"
         },
         "zip": {
-          "pattern": "ByggHubb-*-sidladdning.zip",
-          "url": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/download/v1.0.2/ByggHubb-1.0.2-sidladdning.zip",
-          "sha256": "941201343914301f4af9a54f4154f2685acb1e0b112dddb6ad06bb47c582f621",
-          "size": 87178216
-        },
-        "certThumbprint": "E01DB7CD7768EEEFDADC81BE103A8AB447CC59E2"
+          "pattern": "BoomerHubb-*-sidladdning.zip"
+        }
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/tag/v1.0.2",
-      "icon": "images/bygghubb.png"
+      "icon": "images/boomerhubb.png"
     },
     {
       "id": "regelverket",
