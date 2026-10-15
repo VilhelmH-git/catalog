@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-15T08:48:14+00:00",
+  "updated": "2026-10-15T08:51:09+00:00",
   "products": [
     {
       "id": "bygghubb",
@@ -50,7 +50,7 @@
           "sha256": "212c2b0c21cf50bd8ccce51ce1bc42a82b154a6c119ad2b71d8a9ba79ee5ce4b",
           "size": 89965086
         },
-        "certThumbprint": "E113B3439594A260733B874C2B49AEDA2792CB13"
+        "certThumbprint": "6AD69848A90393779A002FAC5B8340FC69301FEF"
       },
       "releaseNotes": "https://github.com/VilhelmH-git/Regelverket-releases/releases/tag/v1.0.24"
     },
