@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-15T08:51:29+00:00",
+  "updated": "2026-10-15T09:17:31+00:00",
   "products": [
     {
       "id": "bygghubb",
@@ -8,25 +8,25 @@
       "description": "Den här appen: installerar och uppdaterar teamets appar och tillägg. Uppdaterar sig själv härifrån.",
       "descriptionEn": "This app: installs and updates the team's apps and plugins. Updates itself from here.",
       "type": "app",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "app": {
         "packageName": "ByggHubb",
         "publisher": "CN=ByggHubb",
         "msix": {
           "pattern": "ByggHubb_*_x64.msix",
-          "url": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/download/v1.0.0/ByggHubb_1.0.0.0_x64.msix",
-          "sha256": "b89f77f47484143339a98c6f0833bc3a2cb5506b5f659392084d8ba10b11f572",
-          "size": 44797481
+          "url": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/download/v1.0.1/ByggHubb_1.0.1.0_x64.msix",
+          "sha256": "3dba1cae67149b58e17f1cd80119295d82b059aa8cfed635efe2c3dce184fde0",
+          "size": 44804727
         },
         "zip": {
           "pattern": "ByggHubb-*-sidladdning.zip",
-          "url": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/download/v1.0.0/ByggHubb-1.0.0-sidladdning.zip",
-          "sha256": "eee7abb5c8b95ac25a06048f96cf316f15f3662b40f226eb916ae1beae7cca31",
-          "size": 87170160
+          "url": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/download/v1.0.1/ByggHubb-1.0.1-sidladdning.zip",
+          "sha256": "1d905e7f9e40b4968eef88b9343d3891cf7b48dc53740c9b2b8f8453fdbf3bbd",
+          "size": 87177222
         },
         "certThumbprint": "E01DB7CD7768EEEFDADC81BE103A8AB447CC59E2"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/tag/v1.0.0",
+      "releaseNotes": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/tag/v1.0.1",
       "icon": "images/bygghubb.png"
     },
     {
