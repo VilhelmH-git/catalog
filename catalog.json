@@ -54,7 +54,8 @@
         "certThumbprint": "E113B3439594A260733B874C2B49AEDA2792CB13"
       },
       "releaseNotes": "https://github.com/VilhelmH-git/Regelverket-releases/releases/tag/v1.0.24",
-      "icon": "images/regelverket.png"
+      "icon": "images/regelverket.png",
+      "screenshot": "images/regelverket-screenshot.jpg"
     },
     {
       "id": "koordinatverktyget",
