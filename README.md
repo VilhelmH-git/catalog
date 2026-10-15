@@ -48,6 +48,8 @@ Every product:
 | `type` | by hand | `app`, `navisworks-plugin` or `revit-addin` |
 | `version` | set_entry.py | the release tag without `v`, e.g. `1.0.24` |
 | `releaseNotes` | set_entry.py | the release page, linked as "Nyheter" |
+| `icon` | by hand, optional | square PNG, e.g. `images/regelverket.png` (the app's own `Square150x150Logo`) |
+| `screenshot` | by hand, optional | the whole app window in use, about 16:10, e.g. `images/modellvisaren-screenshot.jpg`. Without one the card shows an empty tile with the icon |
 
 Every file is an *asset* object: `pattern` by hand (a wildcard matched against the release's file
 names, exactly one must match), `url`, `sha256` and `size` by set_entry.py. ByggHubb refuses
@@ -118,3 +120,12 @@ ByggHubb 1.0 lists these as "kommer snart". The intended entry:
 installed per user into `%APPDATA%\Autodesk\Revit\Addins\<year>\` (the `.addin` manifest at the
 top, the add-in's files in `folder\`), detected by `C:\Program Files\Autodesk\Revit <year>\Revit.exe`
 and staged while `Revit.exe` of that year runs, like the Navisworks plugins.
+
+## Pictures
+
+`icon` and `screenshot` are paths relative to `catalog.json` (or full https URLs); the files live in
+`images/`. They are public like everything here: a screenshot shows only public test models (the
+SBUF models, claude-kit `library/formats/ifc/examples/EXAMPLES.md`), and no user path or project
+name. Modellvisaren's shows SBUF `A-40-V-02 - IFC4.ifc`, with the file path in the toolbar
+replaced by the file name. About 1600 px wide, JPEG quality 90, keeps the download small.
+A new picture reaches every ByggHubb at its next refresh; no release needed.

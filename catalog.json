@@ -26,7 +26,8 @@
         },
         "certThumbprint": "E01DB7CD7768EEEFDADC81BE103A8AB447CC59E2"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/tag/v1.0.0"
+      "releaseNotes": "https://github.com/VilhelmH-git/ByggHubb-releases/releases/tag/v1.0.0",
+      "icon": "images/bygghubb.png"
     },
     {
       "id": "regelverket",
@@ -52,7 +53,8 @@
         },
         "certThumbprint": "E113B3439594A260733B874C2B49AEDA2792CB13"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/Regelverket-releases/releases/tag/v1.0.24"
+      "releaseNotes": "https://github.com/VilhelmH-git/Regelverket-releases/releases/tag/v1.0.24",
+      "icon": "images/regelverket.png"
     },
     {
       "id": "koordinatverktyget",
@@ -78,7 +80,8 @@
         },
         "certThumbprint": "BA2B6FBFDDA6829FCCB948E5A259282B8F1AE8D6"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/tag/v1.0.25"
+      "releaseNotes": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/tag/v1.0.25",
+      "icon": "images/koordinatverktyget.png"
     },
     {
       "id": "ifcheatmap",
@@ -104,7 +107,8 @@
         },
         "certThumbprint": "5D60D686C3603D726047BE2AE61C9B4F29269D5C"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/IfcHeatmap-releases/releases/tag/v1.1.9"
+      "releaseNotes": "https://github.com/VilhelmH-git/IfcHeatmap-releases/releases/tag/v1.1.9",
+      "icon": "images/ifcheatmap.png"
     },
     {
       "id": "taggverktyget",
@@ -130,7 +134,8 @@
         },
         "certThumbprint": "790BBF690CDAB230CB396DECF032568CEEAC1BC5"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/Taggverktyget-releases/releases/tag/v1.0.18"
+      "releaseNotes": "https://github.com/VilhelmH-git/Taggverktyget-releases/releases/tag/v1.0.18",
+      "icon": "images/taggverktyget.png"
     },
     {
       "id": "modellvisaren",
@@ -156,7 +161,9 @@
         },
         "certThumbprint": "FC27BE3FDCC144500F116CBF4F869EAAAFA05F51"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/Modellvisaren-releases/releases/tag/v1.0.10"
+      "releaseNotes": "https://github.com/VilhelmH-git/Modellvisaren-releases/releases/tag/v1.0.10",
+      "icon": "images/modellvisaren.png",
+      "screenshot": "images/modellvisaren-screenshot.jpg"
     },
     {
       "id": "ritningsvisaren",
@@ -182,7 +189,8 @@
         },
         "certThumbprint": "188C80BB2E83996EB4FB343E242FB74729C38B6A"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/Ritningsvisaren-releases/releases/tag/v1.1.2"
+      "releaseNotes": "https://github.com/VilhelmH-git/Ritningsvisaren-releases/releases/tag/v1.1.2",
+      "icon": "images/ritningsvisaren.png"
     },
     {
       "id": "granskningexcel",
@@ -208,7 +216,8 @@
         },
         "certThumbprint": "D4296E2DD831DDC784F5270705B0F20D09671682"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/GranskningExcel-releases/releases/tag/v1.0.3"
+      "releaseNotes": "https://github.com/VilhelmH-git/GranskningExcel-releases/releases/tag/v1.0.3",
+      "icon": "images/granskningexcel.png"
     },
     {
       "id": "viewpointbuilder",
