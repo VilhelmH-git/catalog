@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-15T08:20:05+00:00",
+  "updated": "2026-10-15T08:24:52+00:00",
   "products": [
     {
       "id": "regelverket",
@@ -190,7 +190,7 @@
       "description": "Bygger standardvyerna i en samordningsmodell med ett klick: Översikt, och per TO en vy utan markmodell och en med transparent markmodell. Vilken modell som hör till vilken TO styrs av filnamnsmönster.",
       "descriptionEn": "Builds the standard viewpoints in a samordningsmodell with one click: an overview, and per TO one view without and one with a transparent terrain model, matched by file-name patterns.",
       "type": "navisworks-plugin",
-      "version": "",
+      "version": "1.0.2",
       "plugin": {
         "folder": "ViewpointBuilder",
         "assembly": "ViewpointBuilder.dll",
@@ -200,11 +200,15 @@
             "product": "Navisworks Manage",
             "year": "2025",
             "asset": {
-              "pattern": "ViewpointBuilder-*.zip"
+              "pattern": "ViewpointBuilder-*.zip",
+              "url": "https://github.com/VilhelmH-git/ViewpointBuilder-releases/releases/download/v1.0.2/ViewpointBuilder-1.0.2.zip",
+              "sha256": "86e1a4afd9803bc02dc8ef5932fb145b04e753da6de90f260dc8ec67ec15df00",
+              "size": 16401
             }
           }
         ]
-      }
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/ViewpointBuilder-releases/releases/tag/v1.0.2"
     }
   ]
 }
