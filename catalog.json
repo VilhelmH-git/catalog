@@ -3,20 +3,20 @@
   "updated": "2026-10-15T08:24:52+00:00",
   "products": [
     {
-      "id": "verktygsladan",
-      "name": "Verktygsl?dan",
-      "description": "Den h?r appen: installerar och uppdaterar teamets appar och till?gg. Uppdaterar sig sj?lv h?rifr?n.",
+      "id": "bygghubb",
+      "name": "ByggHubb",
+      "description": "Den här appen: installerar och uppdaterar teamets appar och tillägg. Uppdaterar sig själv härifrån.",
       "descriptionEn": "This app: installs and updates the team's apps and plugins. Updates itself from here.",
       "type": "app",
       "version": "",
       "app": {
-        "packageName": "Verktygsladan",
-        "publisher": "CN=Verktygsladan",
+        "packageName": "ByggHubb",
+        "publisher": "CN=ByggHubb",
         "msix": {
-          "pattern": "Verktygsladan_*_x64.msix"
+          "pattern": "ByggHubb_*_x64.msix"
         },
         "zip": {
-          "pattern": "Verktygsladan-*-sidladdning.zip"
+          "pattern": "ByggHubb-*-sidladdning.zip"
         }
       }
     },

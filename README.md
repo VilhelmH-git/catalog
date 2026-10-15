@@ -1,7 +1,7 @@
 # catalog
 
-`catalog.json` lists everything **Verktygslådan** can install: the team's MSIX apps and the
-CAD/BIM plugins. Verktygslådan downloads this one file (from `raw.githubusercontent.com`, not the
+`catalog.json` lists everything **ByggHubb** can install: the team's MSIX apps and the
+CAD/BIM plugins. ByggHubb downloads this one file (from `raw.githubusercontent.com`, not the
 GitHub API, so a whole office behind one IP never meets the API's 60 requests an hour), compares
 each entry's `version` with what is installed, and installs from the URLs in it.
 
@@ -22,8 +22,8 @@ product's entry at the new release. A release stays one step.
    ```
 
    `--dry-run` prints the entry instead of committing. `--catalog-file catalog.json` edits a
-   local copy (try it in Verktygslådan with the environment variable
-   `VERKTYGSLADAN_CATALOG=<path to the file>`).
+   local copy (try it in ByggHubb with the environment variable
+   `BYGGHUBB_CATALOG=<path to the file>`).
 4. Add the same call to the product's release script, after the release is published, so the
    next release updates the entry by itself. The existing scripts do it in a step named
    "The catalog entry"; a failure there warns and prints the command to run again.
@@ -32,7 +32,7 @@ product's entry at the new release. A release stays one step.
 
 ```jsonc
 {
-  "schema": 1,                      // Verktygslådan refuses any other number
+  "schema": 1,                      // ByggHubb refuses any other number
   "updated": "2026-10-15T08:20:05+00:00",   // set_entry.py
   "products": [ { ... } ]
 }
@@ -50,7 +50,7 @@ Every product:
 | `releaseNotes` | set_entry.py | the release page, linked as "Nyheter" |
 
 Every file is an *asset* object: `pattern` by hand (a wildcard matched against the release's file
-names, exactly one must match), `url`, `sha256` and `size` by set_entry.py. Verktygslådan refuses
+names, exactly one must match), `url`, `sha256` and `size` by set_entry.py. ByggHubb refuses
 a download whose SHA-256 differs.
 
 ### `app` - an MSIX app
@@ -75,7 +75,7 @@ a download whose SHA-256 differs.
 - `msix` must be the **signed** package, `zip` the sideload delivery with `Install.cmd`, the
   `.cer` and `Dependencies\x64\`.
 
-Installed apps then update themselves through their own channel; Verktygslådan shows installed
+Installed apps then update themselves through their own channel; ByggHubb shows installed
 against latest and offers **Uppdatera** when it is behind.
 
 ### `navisworks-plugin`
@@ -94,15 +94,15 @@ against latest and offers **Uppdatera** when it is behind.
 - Installed per user, no admin, into `%APPDATA%\Autodesk\<product> <year>\Plugins\<folder>\`.
   `folder` must equal the assembly name: that is what Navisworks loads.
 - `zipRoot` is the folder inside the zip whose files are copied there (`""` for the root).
-- One target per Navisworks year the plugin is built for. Verktygslådan installs for every year
+- One target per Navisworks year the plugin is built for. ByggHubb installs for every year
   that has `C:\Program Files\Autodesk\<product> <year>\Roamer.exe`. Years can share a zip.
 - The installed version is the file version of `assembly`, so a copy installed by hand counts.
 - While that year's Navisworks runs, nothing is overwritten: the files are staged and copied in
-  once it has closed (while Verktygslådan is open, or at its next start).
+  once it has closed (while ByggHubb is open, or at its next start).
 
 ### `revit-addin` (designed, not installed yet)
 
-Verktygslådan 1.0 lists these as "kommer snart". The intended entry:
+ByggHubb 1.0 lists these as "kommer snart". The intended entry:
 
 ```json
 "addin": {
