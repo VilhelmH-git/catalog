@@ -3,6 +3,24 @@
   "updated": "2026-10-15T08:24:52+00:00",
   "products": [
     {
+      "id": "verktygsladan",
+      "name": "Verktygsl?dan",
+      "description": "Den h?r appen: installerar och uppdaterar teamets appar och till?gg. Uppdaterar sig sj?lv h?rifr?n.",
+      "descriptionEn": "This app: installs and updates the team's apps and plugins. Updates itself from here.",
+      "type": "app",
+      "version": "",
+      "app": {
+        "packageName": "Verktygsladan",
+        "publisher": "CN=Verktygsladan",
+        "msix": {
+          "pattern": "Verktygsladan_*_x64.msix"
+        },
+        "zip": {
+          "pattern": "Verktygsladan-*-sidladdning.zip"
+        }
+      }
+    },
+    {
       "id": "regelverket",
       "name": "Regelverket",
       "description": "Fyller väggarna i en IFC-modell med Gyproc- eller Knauf-väggsystem - reglar, skenor, skivor och isolering som egna IFC-objekt - och skriver resultatet som en ny IFC-fil. Helt offline.",
