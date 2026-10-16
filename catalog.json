@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-16T10:45:09+00:00",
+  "updated": "2026-10-16T11:04:19+00:00",
   "products": [
     {
       "id": "boomerhubb",
@@ -328,8 +328,8 @@
             "asset": {
               "pattern": "BIMuttern-v*-navisworks.zip",
               "url": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/download/v0.12.0/BIMuttern-v0.12.0-navisworks.zip",
-              "sha256": "",
-              "size": 0
+              "sha256": "b14ff147b58a01f65de45efc9a55de3802b30eaa5ee991aa54753c71ca83bf4d",
+              "size": 504129
             }
           },
           {
@@ -338,8 +338,8 @@
             "asset": {
               "pattern": "BIMuttern-v*-navisworks.zip",
               "url": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/download/v0.12.0/BIMuttern-v0.12.0-navisworks.zip",
-              "sha256": "",
-              "size": 0
+              "sha256": "b14ff147b58a01f65de45efc9a55de3802b30eaa5ee991aa54753c71ca83bf4d",
+              "size": 504129
             }
           },
           {
@@ -348,8 +348,8 @@
             "asset": {
               "pattern": "BIMuttern-v*-navisworks.zip",
               "url": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/download/v0.12.0/BIMuttern-v0.12.0-navisworks.zip",
-              "sha256": "",
-              "size": 0
+              "sha256": "b14ff147b58a01f65de45efc9a55de3802b30eaa5ee991aa54753c71ca83bf4d",
+              "size": 504129
             }
           },
           {
@@ -358,8 +358,8 @@
             "asset": {
               "pattern": "BIMuttern-v*-navisworks.zip",
               "url": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/download/v0.12.0/BIMuttern-v0.12.0-navisworks.zip",
-              "sha256": "",
-              "size": 0
+              "sha256": "b14ff147b58a01f65de45efc9a55de3802b30eaa5ee991aa54753c71ca83bf4d",
+              "size": 504129
             }
           }
         ]
