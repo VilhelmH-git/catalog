@@ -364,6 +364,7 @@
           }
         ]
       },
+      "icon": "images/bimuttern.png",
       "releaseNotes": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/tag/v0.12.0"
     }
   ]
