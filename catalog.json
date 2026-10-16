@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-16T16:56:12+00:00",
+  "updated": "2026-10-16T17:05:48+00:00",
   "products": [
     {
       "id": "boomerhubb",
@@ -63,25 +63,25 @@
       "description": "Flyttar IFC- och DWG-filer mellan koordinatsystem. Helt offline. DWG kräver att AutoCAD finns på datorn.",
       "descriptionEn": "Moves IFC and DWG files between coordinate systems. Works offline. DWG needs AutoCAD on the PC.",
       "type": "app",
-      "version": "1.0.29",
+      "version": "1.0.30",
       "app": {
         "packageName": "Koordinatverktyget",
         "publisher": "CN=Koordinatverktyget",
         "msix": {
           "pattern": "Koordinatverktyget_*_x64.msix",
-          "url": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/download/v1.0.29/Koordinatverktyget_1.0.29.0_x64.msix",
-          "sha256": "d667e949207ef5fcfae8c29c1483d49947c445ec4f90b169ef3394022e9aae28",
-          "size": 110474247
+          "url": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/download/v1.0.30/Koordinatverktyget_1.0.30.0_x64.msix",
+          "sha256": "6eeedfbc30a4f6e621a020501e1032865db039d3c1e847214fb2a154153f40cf",
+          "size": 110488306
         },
         "zip": {
           "pattern": "Koordinatverktyget-*-sidladdning.zip",
-          "url": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/download/v1.0.29/Koordinatverktyget-1.0.29-sidladdning.zip",
-          "sha256": "05b2f948ff79fec725f64352071d655c69dc8a5f24e8c290ba2cc017f41ed870",
-          "size": 151234029
+          "url": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/download/v1.0.30/Koordinatverktyget-1.0.30-sidladdning.zip",
+          "sha256": "dc7b8104592cdad5ddb2693beec7b41e9d3e01ecb741fd3bcfbe072a4499000b",
+          "size": 151249276
         },
         "certThumbprint": "BA2B6FBFDDA6829FCCB948E5A259282B8F1AE8D6"
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/tag/v1.0.29",
+      "releaseNotes": "https://github.com/VilhelmH-git/Koordinatverktyget-releases/releases/tag/v1.0.30",
       "icon": "images/koordinatverktyget.png",
       "screenshot": "images/koordinatverktyget-screenshot.jpg"
     },
