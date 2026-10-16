@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-16T15:38:44+00:00",
+  "updated": "2026-10-16T16:56:12+00:00",
   "products": [
     {
       "id": "boomerhubb",
@@ -231,7 +231,7 @@
       "description": "Bygger standardvyerna i en samordningsmodell med ett klick: Översikt, och per TO en vy utan markmodell och en med transparent markmodell. Vilken TO varje modell hör till väljer du i panelen Model assignments, där du också bockar i markmodellen.",
       "descriptionEn": "Builds the standard viewpoints in a samordningsmodell with one click: an overview, and per TO one view without and one with a transparent terrain model, with each model's TO and the terrain model picked in the Model assignments pane.",
       "type": "navisworks-plugin",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "plugin": {
         "folder": "ViewpointBuilder",
         "assembly": "ViewpointBuilder.dll",
@@ -242,14 +242,14 @@
             "year": "2025",
             "asset": {
               "pattern": "ViewpointBuilder-*.zip",
-              "url": "https://github.com/VilhelmH-git/ViewpointBuilder-releases/releases/download/v1.2.1/ViewpointBuilder-1.2.1.zip",
-              "sha256": "7ef7b98107725eb6f297837db94857975969cb0342d3f8e4568b4bc6b0e61ca5",
-              "size": 26043
+              "url": "https://github.com/VilhelmH-git/ViewpointBuilder-releases/releases/download/v1.3.0/ViewpointBuilder-1.3.0.zip",
+              "sha256": "92ccdf6636bad18160c7411014937220a35d0ff2bdb56d0d667e6723867d199b",
+              "size": 27175
             }
           }
         ]
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/ViewpointBuilder-releases/releases/tag/v1.2.1"
+      "releaseNotes": "https://github.com/VilhelmH-git/ViewpointBuilder-releases/releases/tag/v1.3.0"
     },
     {
       "id": "bimcamel",
