@@ -250,6 +250,64 @@
         ]
       },
       "releaseNotes": "https://github.com/VilhelmH-git/ViewpointBuilder-releases/releases/tag/v1.0.2"
+    },
+    {
+      "id": "bimcamel",
+      "name": "BIMCamel IFC Exporter",
+      "description": "Exporterar Navisworks-modellen till IFC (IFC4 / IFC2x3) från fliken BIMCamel i menyfliksområdet. Fritt tillägg från BIMCamel (MIT-licens), inte vårt eget: BoomerHubb hämtar deras släpp från GitHub.",
+      "descriptionEn": "Exports the Navisworks model to IFC (IFC4 / IFC2x3) from the BIMCamel ribbon tab. A free plugin by BIMCamel (MIT licence), not our own: BoomerHubb fetches their releases from GitHub.",
+      "type": "navisworks-plugin",
+      "upstream": "mrshoma99-rgb/bimcamel-ifc-exporter",
+      "version": "0.11.0",
+      "plugin": {
+        "bundle": "BIMCamel.bundle",
+        "folder": "BIMCamel",
+        "assembly": "BIMCamel.dll",
+        "zipRoot": "BIMCamel.bundle",
+        "targets": [
+          {
+            "product": "Navisworks Manage",
+            "year": "2024",
+            "asset": {
+              "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
+              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
+              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
+              "size": 946780
+            }
+          },
+          {
+            "product": "Navisworks Manage",
+            "year": "2025",
+            "asset": {
+              "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
+              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
+              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
+              "size": 946780
+            }
+          },
+          {
+            "product": "Navisworks Manage",
+            "year": "2026",
+            "asset": {
+              "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
+              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
+              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
+              "size": 946780
+            }
+          },
+          {
+            "product": "Navisworks Manage",
+            "year": "2027",
+            "asset": {
+              "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
+              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
+              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
+              "size": 946780
+            }
+          }
+        ]
+      },
+      "releaseNotes": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/tag/v0.11.0"
     }
   ]
 }

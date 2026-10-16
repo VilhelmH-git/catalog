@@ -102,6 +102,40 @@ against latest and offers **Uppdatera** when it is behind.
 - While that year's Navisworks runs, nothing is overwritten: the files are staged and copied in
   once it has closed (while BoomerHubb is open, or at its next start).
 
+**An Autodesk bundle** (BoomerHubb 1.0.7 and later): add `"bundle": "<Name>.bundle"`.
+
+```json
+"plugin": {
+  "bundle": "BIMCamel.bundle",
+  "folder": "BIMCamel",
+  "assembly": "BIMCamel.dll",
+  "zipRoot": "BIMCamel.bundle",
+  "targets": [
+    { "product": "Navisworks Manage", "year": "2025", "asset": { "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip" } },
+    { "product": "Navisworks Manage", "year": "2026", "asset": { "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip" } }
+  ]
+}
+```
+
+- `zipRoot` is copied **once** to `%APPDATA%\Autodesk\ApplicationPlugins\<bundle>\`, where each
+  Navisworks year finds its own DLL through the bundle's `PackageContents.xml`. All targets share
+  one zip.
+- The zip must hold `PackageContents.xml` and `<year>\<assembly>` for every target year, or it is
+  refused before anything is replaced.
+- The installed version is `PackageContents.xml`'s `ApplicationPackage Version`. That is the
+  folder the vendor's installer uses too, so a copy installed that way counts.
+- It waits while **any** Navisworks runs: every year, Manage or Simulate, reads the bundle.
+- Older BoomerHubb versions refuse such an entry harmlessly ("the zip has no <zipRoot>/<assembly>").
+
+## Products we do not release ourselves
+
+A product released by someone else carries `"upstream": "<owner>/<repo>"`, its GitHub repository.
+Nobody's release script updates its entry, so `.github/workflows/upstream.yml` checks every such
+repository daily. When there is a newer release it fills the entry from it (as `set_entry.py`
+does) and opens a **pull request** rather than committing. Merging it is what sends the new version
+to every colleague, so look at the release first: it is code from outside the team, and nothing
+here scans it.
+
 ### `revit-addin` (designed, not installed yet)
 
 BoomerHubb 1.0 lists these as "kommer snart". The intended entry:

@@ -1,0 +1,39 @@
+# Products we do not release ourselves ("upstream" in catalog.json): once a day,
+# point their entries at the latest upstream release - as a pull request, because
+# merging it ships code from outside the team to every BoomerHubb. README, "Products
+# we do not release ourselves".
+name: upstream
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: refresh
+        run: python3 tools/upstream.py catalog.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - if: steps.refresh.outputs.changed != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHANGED: ${{ steps.refresh.outputs.changed }}
+        run: |
+          branch="upstream/$(date -u +%Y%m%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git commit -am "upstream: $(echo "$CHANGED" | cut -d' ' -f1,4 | paste -sd ', ')"
+          git push -f origin "$branch"
+          if ! gh pr view "$branch" >/dev/null 2>&1; then
+            gh pr create --head "$branch" --title "Upstream releases: $(echo "$CHANGED" | cut -d' ' -f1,4 | paste -sd ', ')" \
+              --body "$(printf 'New upstream releases:\n\n%s\n\nCode from outside the team: look at the release before merging. Merging sends it to every BoomerHubb.\n' "$CHANGED")"
+          fi
