@@ -228,8 +228,8 @@
     {
       "id": "viewpointbuilder",
       "name": "ViewpointBuilder",
-      "description": "Bygger standardvyerna i en samordningsmodell med ett klick: Översikt, och per TO en vy utan markmodell och en med transparent markmodell. Vilken modell som hör till vilken TO styrs av filnamnsmönster, eller väljs per modell i panelen Model assignments.",
-      "descriptionEn": "Builds the standard viewpoints in a samordningsmodell with one click: an overview, and per TO one view without and one with a transparent terrain model, matched by file-name patterns or picked per model in the Model assignments pane.",
+      "description": "Bygger standardvyerna i en samordningsmodell med ett klick: Översikt, och per TO en vy utan markmodell och en med transparent markmodell. Vilken TO varje modell hör till väljer du i panelen Model assignments, där du också bockar i markmodellen.",
+      "descriptionEn": "Builds the standard viewpoints in a samordningsmodell with one click: an overview, and per TO one view without and one with a transparent terrain model, with each model's TO and the terrain model picked in the Model assignments pane.",
       "type": "navisworks-plugin",
       "version": "1.2.0",
       "plugin": {
