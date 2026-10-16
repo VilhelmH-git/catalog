@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-16T06:43:12+00:00",
+  "updated": "2026-10-16T10:45:09+00:00",
   "products": [
     {
       "id": "boomerhubb",
@@ -257,7 +257,7 @@
       "description": "Exporterar Navisworks-modellen till IFC (IFC4 / IFC2x3) från fliken BIMCamel i menyfliksområdet. Vår version av det fria BIMCamel-tillägget (MIT-licens): objekt av många delar, som läktarstolar, skrivs som en form i stället för en kopia per del, en bugg som kopierade instansade objekt flera gånger är rättad, och nätförenkling finns som val. Stora modeller öppnas då i webbvisare.",
       "descriptionEn": "Exports the Navisworks model to IFC (IFC4 / IFC2x3) from the BIMCamel ribbon tab. Our version of the free BIMCamel plugin (MIT licence): objects made of many parts, such as stadium seats, are written as one shape instead of one copy per part, a bug that copied instanced objects many times is fixed, and mesh simplification is an option. Large models then open in web viewers.",
       "type": "navisworks-plugin",
-      "version": "0.11.0",
+      "version": "0.11.1",
       "plugin": {
         "bundle": "BIMCamel.bundle",
         "folder": "BIMCamel",
@@ -269,9 +269,9 @@
             "year": "2024",
             "asset": {
               "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
-              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
-              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
-              "size": 946780
+              "url": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/download/v0.11.1/BIMCamel-ifc-exporter-v0.11.1-navisworks.zip",
+              "sha256": "d30ea9f04911cc952ffa931788de28c477c5a62a3f6d2968344ab6ead28da800",
+              "size": 492248
             }
           },
           {
@@ -279,9 +279,9 @@
             "year": "2025",
             "asset": {
               "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
-              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
-              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
-              "size": 946780
+              "url": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/download/v0.11.1/BIMCamel-ifc-exporter-v0.11.1-navisworks.zip",
+              "sha256": "d30ea9f04911cc952ffa931788de28c477c5a62a3f6d2968344ab6ead28da800",
+              "size": 492248
             }
           },
           {
@@ -289,9 +289,9 @@
             "year": "2026",
             "asset": {
               "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
-              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
-              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
-              "size": 946780
+              "url": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/download/v0.11.1/BIMCamel-ifc-exporter-v0.11.1-navisworks.zip",
+              "sha256": "d30ea9f04911cc952ffa931788de28c477c5a62a3f6d2968344ab6ead28da800",
+              "size": 492248
             }
           },
           {
@@ -299,14 +299,14 @@
             "year": "2027",
             "asset": {
               "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
-              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
-              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
-              "size": 946780
+              "url": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/download/v0.11.1/BIMCamel-ifc-exporter-v0.11.1-navisworks.zip",
+              "sha256": "d30ea9f04911cc952ffa931788de28c477c5a62a3f6d2968344ab6ead28da800",
+              "size": 492248
             }
           }
         ]
       },
-      "releaseNotes": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/tag/v0.11.0"
+      "releaseNotes": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/tag/v0.11.1"
     }
   ]
 }
