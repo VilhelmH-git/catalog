@@ -254,10 +254,9 @@
     {
       "id": "bimcamel",
       "name": "BIMCamel IFC Exporter",
-      "description": "Exporterar Navisworks-modellen till IFC (IFC4 / IFC2x3) från fliken BIMCamel i menyfliksområdet. Fritt tillägg från BIMCamel (MIT-licens), inte vårt eget: BoomerHubb hämtar deras släpp från GitHub.",
-      "descriptionEn": "Exports the Navisworks model to IFC (IFC4 / IFC2x3) from the BIMCamel ribbon tab. A free plugin by BIMCamel (MIT licence), not our own: BoomerHubb fetches their releases from GitHub.",
+      "description": "Exporterar Navisworks-modellen till IFC (IFC4 / IFC2x3) från fliken BIMCamel i menyfliksområdet. Vår version av det fria BIMCamel-tillägget (MIT-licens): objekt av många delar, som läktarstolar, skrivs som en form i stället för en kopia per del, en bugg som kopierade instansade objekt flera gånger är rättad, och nätförenkling finns som val. Stora modeller öppnas då i webbvisare.",
+      "descriptionEn": "Exports the Navisworks model to IFC (IFC4 / IFC2x3) from the BIMCamel ribbon tab. Our version of the free BIMCamel plugin (MIT licence): objects made of many parts, such as stadium seats, are written as one shape instead of one copy per part, a bug that copied instanced objects many times is fixed, and mesh simplification is an option. Large models then open in web viewers.",
       "type": "navisworks-plugin",
-      "upstream": "mrshoma99-rgb/bimcamel-ifc-exporter",
       "version": "0.11.0",
       "plugin": {
         "bundle": "BIMCamel.bundle",
