@@ -254,10 +254,11 @@
     {
       "id": "bimcamel",
       "name": "BIMCamel IFC Exporter",
-      "description": "Exporterar Navisworks-modellen till IFC (IFC4 / IFC2x3) från fliken BIMCamel i menyfliksområdet. Vår version av det fria BIMCamel-tillägget (MIT-licens): objekt av många delar, som läktarstolar, skrivs som en form i stället för en kopia per del, en bugg som kopierade instansade objekt flera gånger är rättad, och nätförenkling finns som val. Stora modeller öppnas då i webbvisare.",
-      "descriptionEn": "Exports the Navisworks model to IFC (IFC4 / IFC2x3) from the BIMCamel ribbon tab. Our version of the free BIMCamel plugin (MIT licence): objects made of many parts, such as stadium seats, are written as one shape instead of one copy per part, a bug that copied instanced objects many times is fixed, and mesh simplification is an option. Large models then open in web viewers.",
+      "description": "Exporterar Navisworks-modellen till IFC (IFC4 / IFC2x3) från fliken BIMCamel i menyfliksområdet. Fritt tillägg från BIMCamel (MIT-licens), inte vårt eget: BoomerHubb hämtar deras släpp från GitHub.",
+      "descriptionEn": "Exports the Navisworks model to IFC (IFC4 / IFC2x3) from the BIMCamel ribbon tab. A free plugin by BIMCamel (MIT licence), not our own: BoomerHubb fetches their releases from GitHub.",
       "type": "navisworks-plugin",
-      "version": "0.11.1",
+      "upstream": "mrshoma99-rgb/bimcamel-ifc-exporter",
+      "version": "0.11.0",
       "plugin": {
         "bundle": "BIMCamel.bundle",
         "folder": "BIMCamel",
@@ -269,9 +270,9 @@
             "year": "2024",
             "asset": {
               "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
-              "url": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/download/v0.11.1/BIMCamel-ifc-exporter-v0.11.1-navisworks.zip",
-              "sha256": "d30ea9f04911cc952ffa931788de28c477c5a62a3f6d2968344ab6ead28da800",
-              "size": 492248
+              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
+              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
+              "size": 946780
             }
           },
           {
@@ -279,9 +280,9 @@
             "year": "2025",
             "asset": {
               "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
-              "url": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/download/v0.11.1/BIMCamel-ifc-exporter-v0.11.1-navisworks.zip",
-              "sha256": "d30ea9f04911cc952ffa931788de28c477c5a62a3f6d2968344ab6ead28da800",
-              "size": 492248
+              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
+              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
+              "size": 946780
             }
           },
           {
@@ -289,9 +290,9 @@
             "year": "2026",
             "asset": {
               "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
-              "url": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/download/v0.11.1/BIMCamel-ifc-exporter-v0.11.1-navisworks.zip",
-              "sha256": "d30ea9f04911cc952ffa931788de28c477c5a62a3f6d2968344ab6ead28da800",
-              "size": 492248
+              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
+              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
+              "size": 946780
             }
           },
           {
@@ -299,14 +300,71 @@
             "year": "2027",
             "asset": {
               "pattern": "BIMCamel-ifc-exporter-v*-navisworks.zip",
-              "url": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/download/v0.11.1/BIMCamel-ifc-exporter-v0.11.1-navisworks.zip",
-              "sha256": "d30ea9f04911cc952ffa931788de28c477c5a62a3f6d2968344ab6ead28da800",
-              "size": 492248
+              "url": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/download/v0.11.0/BIMCamel-ifc-exporter-v0.11.0-navisworks.zip",
+              "sha256": "e0276806857c41c52db67216c090c3ccfa14876a3cfaeaf8faaf35644588d117",
+              "size": 946780
             }
           }
         ]
       },
-      "releaseNotes": "https://github.com/VilhelmH-git/BIMCamel-releases/releases/tag/v0.11.1"
+      "releaseNotes": "https://github.com/mrshoma99-rgb/bimcamel-ifc-exporter/releases/tag/v0.11.0"
+    },
+    {
+      "id": "bimuttern",
+      "name": "BIMuttern",
+      "description": "Exporterar Navisworks-modellen till IFC (IFC4 / IFC2x3) från fliken BIMuttern i menyfliksområdet. Vår version av det fria BIMCamel-tillägget (MIT-licens): objekt av många delar, som läktarstolar, skrivs som en form i stället för en kopia per del, en bugg som kopierade instansade objekt flera gånger är rättad, och nätförenkling finns som val. Stora modeller öppnas då i webbvisare. Kan installeras bredvid originalet.",
+      "descriptionEn": "Exports the Navisworks model to IFC (IFC4 / IFC2x3) from the BIMuttern ribbon tab. Our version of the free BIMCamel plugin (MIT licence): objects made of many parts, such as stadium seats, are written as one shape instead of one copy per part, a bug that copied instanced objects many times is fixed, and mesh simplification is an option. Large models then open in web viewers. Can be installed next to the original.",
+      "type": "navisworks-plugin",
+      "version": "0.12.0",
+      "plugin": {
+        "bundle": "BIMuttern.bundle",
+        "folder": "BIMuttern",
+        "assembly": "BIMuttern.dll",
+        "zipRoot": "BIMuttern.bundle",
+        "targets": [
+          {
+            "product": "Navisworks Manage",
+            "year": "2024",
+            "asset": {
+              "pattern": "BIMuttern-v*-navisworks.zip",
+              "url": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/download/v0.12.0/BIMuttern-v0.12.0-navisworks.zip",
+              "sha256": "",
+              "size": 0
+            }
+          },
+          {
+            "product": "Navisworks Manage",
+            "year": "2025",
+            "asset": {
+              "pattern": "BIMuttern-v*-navisworks.zip",
+              "url": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/download/v0.12.0/BIMuttern-v0.12.0-navisworks.zip",
+              "sha256": "",
+              "size": 0
+            }
+          },
+          {
+            "product": "Navisworks Manage",
+            "year": "2026",
+            "asset": {
+              "pattern": "BIMuttern-v*-navisworks.zip",
+              "url": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/download/v0.12.0/BIMuttern-v0.12.0-navisworks.zip",
+              "sha256": "",
+              "size": 0
+            }
+          },
+          {
+            "product": "Navisworks Manage",
+            "year": "2027",
+            "asset": {
+              "pattern": "BIMuttern-v*-navisworks.zip",
+              "url": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/download/v0.12.0/BIMuttern-v0.12.0-navisworks.zip",
+              "sha256": "",
+              "size": 0
+            }
+          }
+        ]
+      },
+      "releaseNotes": "https://github.com/VilhelmH-git/BIMuttern-releases/releases/tag/v0.12.0"
     }
   ]
 }
