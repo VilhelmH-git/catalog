@@ -226,6 +226,34 @@
       "screenshot": "images/granskningexcel-screenshot.jpg"
     },
     {
+      "id": "betterdesktopconnector",
+      "name": "Better Desktop Connector",
+      "description": "En liten, snabb ersättare för Autodesk Desktop Connector för ACC Docs. Projekten syns som en vanlig mapp i Utforskaren, filer hämtas när du öppnar dem och det du sparar går tillbaka till ACC som nya versioner. Kan köras bredvid Desktop Connector. Uppdaterar sig själv.",
+      "descriptionEn": "A small, fast replacement for Autodesk Desktop Connector for ACC Docs. Your projects appear as an ordinary folder in Explorer, files download when you open them, and your saves go back to ACC as new versions. Runs next to Desktop Connector. Updates itself.",
+      "type": "app",
+      "upstream": "byggstyrning/better-desktop-connector-releases",
+      "version": "0.1.10",
+      "app": {
+        "packageName": "Byggstyrning.BetterDesktopConnector",
+        "publisher": "CN=FastADC",
+        "msix": {
+          "pattern": "BetterDesktopConnector_*_x64.msix",
+          "url": "https://github.com/byggstyrning/better-desktop-connector-releases/releases/download/v0.1.10/BetterDesktopConnector_0.1.10.0_x64.msix",
+          "sha256": "339b749abf6d9b5a959b79cbac70091e3e1147aa9ef55610d80355493847ae44",
+          "size": 47833463
+        },
+        "zip": {
+          "pattern": "BetterDesktopConnector-*-sidladdning.zip",
+          "url": "https://github.com/byggstyrning/better-desktop-connector-releases/releases/download/v0.1.10/BetterDesktopConnector-0.1.10-sidladdning.zip",
+          "sha256": "670b5eea0d864956f163a54fee5ac16c79f2bf252f00a594c4240f65819fb19e",
+          "size": 90178238
+        },
+        "certThumbprint": "03F6B767F3CFC690AB55333AAE6093AC0C8CF233"
+      },
+      "icon": "images/betterdesktopconnector.png",
+      "releaseNotes": "https://github.com/byggstyrning/better-desktop-connector-releases/releases/tag/v0.1.10"
+    },
+    {
       "id": "viewpointbuilder",
       "name": "ViewpointBuilder",
       "description": "Bygger standardvyerna i en samordningsmodell med ett klick: Översikt och en ortografisk vy per TO, med bara den TO:ns modeller och markmodellen dold. Vilken TO varje modell hör till väljer du i panelen Model assignments, där du också bockar i markmodellen.",
